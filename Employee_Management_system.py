@@ -5,9 +5,9 @@ class Employee:
         self.salary = salary
         
     def display_employee_details(self):
-        print(f'Employee Id : {self.emp_id}')
+        print(f'Id : {self.emp_id}')
         print(f'Employee Name : {self.emp_name}')
-        print(f'Employee Salary : {self.salary}')
+        print(f'Employee Salary : {self.salary}')   
         
 emp1 = Employee(1, 'Deepak', 20000)
 emp2 = Employee(2, 'Sarath', 40000)
